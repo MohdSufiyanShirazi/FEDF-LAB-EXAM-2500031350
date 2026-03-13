@@ -1,7 +1,7 @@
 function ViewBooks(){
 
 
-  const users = JSON.parse(localStorage.getItem("books")) || [];
+  const books = JSON.parse(localStorage.getItem("books")) || [];
 
   return(
     <div>

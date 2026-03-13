@@ -5,6 +5,7 @@ import BookRegistration from './BookRegistration'
 import Home from './Home'
 import ApiDemo from './ApiDemo'
 import ViewBooks from './ViewBooks'
+import NotFound from './Notfound';
 export default function NavBar() {
 
   return (
@@ -12,8 +13,8 @@ export default function NavBar() {
     <nav className='navbar'>
 
      <Link to="/">Home</Link>
+     <Link to="/bookregistration">BookRegisteration</Link>
      <Link to="/viewbooks">ViewBooks</Link>
-     <Link to="/bookreg">BookRegisteration</Link>
      <Link to="/api">ApiDemo</Link>
   
 

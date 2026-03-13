@@ -17,14 +17,14 @@ export default function BookRegistration() {
     let books = JSON.parse(localStorage.getItem("books")) || [];
     books.push(book);
 
-    localStorage.setItem("users", JSON.stringify(books));
+    localStorage.setItem("books", JSON.stringify(books));
 
     alert("Book Registered");
   };
 
   return (
     <><div>BookRegistration</div><form onSubmit={handleSubmit}>
-          <input name="name" placeholder="Book Name" onChange={handleChange} required />
+          <input name="bookname" placeholder="Book Name" onChange={handleChange} required />
           <br /><br />
 
           <input name="authorname" placeholder="Author Name" onChange={handleChange} required />
