@@ -13,7 +13,7 @@ export default function NavBar() {
     <nav className='navbar'>
 
      <Link to="/">Home</Link>
-     <Link to="/bookregistration">BookRegisteration</Link>
+     <Link to="/bookregistration">ADD Book</Link>
      <Link to="/viewbooks">ViewBooks</Link>
      <Link to="/api">ApiDemo</Link>
   
