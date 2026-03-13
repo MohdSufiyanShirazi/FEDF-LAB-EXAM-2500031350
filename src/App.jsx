@@ -4,8 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import { BrowserRouter } from "react-router-dom"
 import NavBar from './exam/NavBar'
-//import './App.css'
-import"./style.css"
+import './App.css'
 function App() {
   
 
