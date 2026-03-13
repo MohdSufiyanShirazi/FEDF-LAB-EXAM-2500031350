@@ -37,7 +37,7 @@ export default function BookRegistration() {
           <input name="date" placeholder="Date" onChange={handleChange} required />
           <br /><br />
 
-          <button type="submit">Register Book</button>
+          <button type="submit">Add Book</button>
       </form></>
   )
 }
